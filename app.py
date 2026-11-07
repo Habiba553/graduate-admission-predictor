@@ -337,13 +337,13 @@ with st.sidebar:
     st.divider()
 
     gpa = st.slider(
-        "GPA Score",
-        min_value=0.0,
-        max_value=4.0,
-        step=0.05,
-        format="%.2f",
-        key="applicant_gpa",
-        help="Enter the applicant GPA on a 0–4 scale.",
+         "GPA Score",
+    min_value=0.00,
+    max_value=4.00,
+    step=0.01,
+    format="%.2f",
+    key="applicant_gpa",
+    help="Enter the applicant GPA on a 0.00–4.00 scale.",
     )
 
     st.write("")
